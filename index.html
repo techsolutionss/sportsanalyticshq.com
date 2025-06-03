@@ -8,7 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>PerediOn - Sports Prediction HTML Template</title>
+        <title>PerediOn - Sports Prediction HTML Templatesection-</title>
         <!-- favicon -->
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <!-- bootstrap -->
@@ -45,168 +45,7 @@
         </div>
         <!-- preloader end -->
 
-        <!-- bet-slip begin -->
-        <div class="bet-slip">
-            <button class="bet-slip-header collapsed type="button" data-bs-toggle="collapse" data-bs-target="#collapseBetSlip" aria-expanded="false" aria-controls="collapseBetSlip">
-                <span class="icon"><i class="fa-light fa-clipboard-list"></i></span>
-                <span class="text">betslip</span>
-                <span class="slip-quantity-badge">3</span>
-            </button>
-            <div class="collapse" id="collapseBetSlip">
-                <div class="bet-slip-body">
-                    <ul class="nav nav-pills bet-slip-category" id="bsCategory-tab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="bsCat-single-tab" data-bs-toggle="pill" data-bs-target="#bsCategory-home" type="button" role="tab" aria-controls="bsCategory-home" aria-selected="true">Single</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="bsCat-combo-tab" data-bs-toggle="pill" data-bs-target="#bsCategory-profile" type="button" role="tab" aria-controls="bsCategory-profile" aria-selected="false">Combo</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="bsCat-system-tab" data-bs-toggle="pill" data-bs-target="#bsCategory-contact" type="button" role="tab" aria-controls="bsCategory-contact" aria-selected="false">System</button>
-                        </li>
-                    </ul>
-                    <div class="tab-content" id="bsCategory-tabContent">
-                        <div class="tab-pane fade show active" id="bsCategory-home" role="tabpanel" aria-labelledby="bsCat-single-tab">
-                            <div class="part-slip-header">
-                                <div class="all-bs-card">
-                                    <div class="empty-card">
-                                        <img src="assets/img/playing-bet/bet-slip/empty-icon.png" alt="">
-                                        <h4 class="empty-title">Your bet slip is empty!</h4>
-                                        <p>looks like you haven’t placed <br/> a bet yet to your bet slip.</p>
-                                    </div>
-                                    <div class="successfull-card">
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.2 130.2" style="display: inline-block;">
-                                            <circle class="path circle" fill="none" stroke="#73AF55" stroke-width="6" stroke-miterlimit="10" cx="65.1" cy="65.1" r="62.1"></circle>
-                                            <polyline class="path check" fill="none" stroke="#73AF55" stroke-width="6" stroke-linecap="round" stroke-miterlimit="10" points="100.2,40.2 51.5,88.8 29.8,67.5 "></polyline>
-                                        </svg>
-                                        <h4 class="empty-title">Bet is placed successfully!</h4>
-                                        <p>so, you can check your placed  <br/> bets in dashboard.</p>
-                                    </div>
-                                    <div class="single-bs-card singleBS hidden"></div>
-                                </div>
-                                <div class="form-check form-switch odd-changing">
-                                    <label class="form-check-label" for="flexSwitchCheckDefault">Accept if odd changes</label>
-                                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="bsCategory-profile" role="tabpanel" aria-labelledby="bsCat-combo-tab">
-                            <div class="part-slip-header">
-                                <div class="all-bs-card">
-                                    <div class="successfull-card combo-system-empty">
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.2 130.2" style="display: inline-block;">
-                                            <circle class="path circle" fill="none" stroke="#73AF55" stroke-width="6" stroke-miterlimit="10" cx="65.1" cy="65.1" r="62.1"></circle>
-                                            <polyline class="path check" fill="none" stroke="#73AF55" stroke-width="6" stroke-linecap="round" stroke-miterlimit="10" points="100.2,40.2 51.5,88.8 29.8,67.5 "></polyline>
-                                        </svg>
-                                        <h4 class="empty-title">Bet is placed successfully!</h4>
-                                        <p>so, you can check your placed  <br/> bets in dashboard.</p>
-                                    </div>
-                                    <div class="empty-card combo-system-empty">
-                                        <img src="assets/img/playing-bet/bet-slip/empty-icon.png" alt="">
-                                        <h4 class="empty-title">Your bet slip is empty!</h4>
-                                        <p>looks like you haven’t placed <br/> a bet yet to your bet slip.</p>
-                                    </div>
-                                    <div class="single-bs-card card-combo hidden"></div>
-                                </div>
-                            </div>
-                            <div class="bet-quantity">
-                                <div class="title">
-                                    <span class="title-text">multy bet</span>
-                                </div>
-                                <div class="single-list">
-                                    <span class="text">overall odds :</span>
-                                    <span class="number">1</span>
-                                </div>
-                                <div class="single-list">
-                                    <span class="text">Combo (1x) :</span>
-                                    <div class="inc-dec-bet">
-                                        <button class="dec-btn"><i class="fa-solid fa-minus"></i></button>
-                                        <span class="result-num"></span>
-                                        <button class="inc-btn"><i class="fa-solid fa-plus"></i></button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-check form-switch odd-changing oc-for-combo">
-                                <label class="form-check-label" for="flexSwitchCheckDefault">Accept if odd changes</label>
-                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="bsCategory-contact" role="tabpanel" aria-labelledby="bsCat-system-tab">
-                            <div class="part-slip-header">
-                                <div class="all-bs-card">
-                                    <div class="successfull-card combo-system-empty">
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.2 130.2" style="display: inline-block;">
-                                            <circle class="path circle" fill="none" stroke="#73AF55" stroke-width="6" stroke-miterlimit="10" cx="65.1" cy="65.1" r="62.1"></circle>
-                                            <polyline class="path check" fill="none" stroke="#73AF55" stroke-width="6" stroke-linecap="round" stroke-miterlimit="10" points="100.2,40.2 51.5,88.8 29.8,67.5 "></polyline>
-                                        </svg>
-                                        <h4 class="empty-title">Bet is placed successfully!</h4>
-                                        <p>so, you can check your placed  <br/> bets in dashboard.</p>
-                                    </div>
-                                    <div class="empty-card combo-system-empty">
-                                        <img src="assets/img/playing-bet/bet-slip/empty-icon.png" alt="">
-                                        <h4 class="empty-title">Your bet slip is empty!</h4>
-                                        <p>looks like you haven’t placed <br/> a bet yet to your bet slip.</p>
-                                    </div>
-                                    <div class="single-bs-card card-system hidden"></div>
-                                </div>
-                            </div>
-                            <div class="bet-quantity">
-                                <div class="title sytem-title">
-                                    <span class="title-text">multy bet</span>
-                                    <div class="system-bet-option">
-                                        <div class="btn-group">
-                                            <button type="button" class="bet-option-btn" data-bs-toggle="dropdown" aria-expanded="false">
-                                                2/3 (3 Bets)
-                                            </button>
-                                            <ul class="dropdown-menu dropdown-menu-end">
-                                                <li><button class="dropdown-item" data-bet-add="3" type="button">2/3 (3 Bets)</button></li>
-                                                <li><button class="dropdown-item" data-bet-add="4" type="button">Trixie (4 Bets)</button></li>
-                                                <li><button class="dropdown-item" data-bet-add="7" type="button">Patent (7 Bets)</button></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="single-list">
-                                    <span class="text">overall odds :</span>
-                                    <span class="number">1</span>
-                                </div>
-                                <div class="single-list">
-                                    <span class="text">Combo (1x) :</span>
-                                    <div class="inc-dec-bet">
-                                        <button class="dec-btn"><i class="fa-solid fa-minus"></i></button>
-                                        <span class="result-num">0</span>
-                                        <button class="inc-btn"><i class="fa-solid fa-plus"></i></button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-check form-switch odd-changing oc-for-combo">
-                                <label class="form-check-label" for="flexSwitchCheckDefault">Accept if odd changes</label>
-                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bet-slip-calculation">
-                        <div class="total-calc">
-                            <div class="single-calc">
-                                <span class="text">Total stake :</span>
-                                <span class="number total-stake">1</span>
-                            </div>
-                            <div class="single-calc">
-                                <span class="text">Total est. return :</span>
-                                <span class="number total-est-return">1.00</span>
-                            </div>
-                        </div>
-                        <div class="calc-finish">
-                            <button class="prd-btn-1 medium placed-to-dashboard" id="btn1">place your bet <i class="fa-duotone fa-arrow-right"></i></button>
-                            <button class="calc-dlt">
-                                <i class="fa-light fa-trash-can"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- bet-slip end -->
+        <!--Betslip-position-->
         
         <!-- comming soon Modal -->
         <div class="modal fade" id="comming_soon" tabindex="-1" aria-labelledby="comming_soon" aria-hidden="true">
@@ -396,9 +235,6 @@
                                                     <li><a class='dropdown-item' href='peredion-dashboard/dashboard-settings.html'>settings</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="nav-item version-changing-button">
-                                                <button class="nav-link" data-bs-toggle="modal" data-bs-target="#comming_soon">dark mode</button>
-                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -461,79 +297,15 @@
         </div>
         <!-- scroll down button end -->
         
-        <!-- about begin -->
-        <div class="about" id="aboutUs">
-            <div class="global-shape" data-aos="fade-left" data-aos-duration="700" data-aos-delay="200">
-                <img src="assets/img/shapes/shape-1.png" alt="">
-            </div>
-            <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-xxl-4 col-xl-5 col-lg-5 d-xl-flex d-lg-flex d-block align-items-end justify-content-end">
-                        <div class="part-img">
-                            <img src="assets/img/about/about-img-shape.png" alt="" class="img-shape" data-aos="fade-up-right" data-aos-easing="ease-in" data-aos-duration="500" data-aos-delay="200">
-                            <img src="assets/img/about/about-img.png" alt="" class="main-img" data-aos="zoom-in-right" data-aos-easing="ease-in" data-aos-duration="500" data-aos-delay="400">
-                        </div>
-                    </div>
-                    <div class="col-xxl-7 col-xl-7 col-lg-7 d-xl-flex d-lg-flex align-items-center">
-                        <div class="about-text">
-                            <div class="section-title if-lines-break" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500" data-aos-easing="ease-in">
-                                <h3 class="sub-title">About us</h3>
-                                <h2 class="title">We provide the most <br/>reliable & legal betting</h2>
-                            </div>
-                            <div class="part-bottom">
-                                <div class="part-statics">
-                                    <div class="single-statics" data-aos="fade-up" data-aos-delay="150" data-aos-duration="500" data-aos-easing="ease-in">
-                                        <div class="part-icon">
-                                            <img src="assets/img/about/icon-1.png" alt="">
-                                        </div>
-                                        <div class="part-txt">
-                                            <span class="number odometer" id="bet_player" data-count="25.1">00.0</span>
-                                            <span class="text">Bet Player</span>
-                                        </div>
-                                    </div>
-                                    <div class="single-statics" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" data-aos-easing="ease-in">
-                                        <div class="part-icon">
-                                            <img src="assets/img/about/icon-2.png" alt="">
-                                        </div>
-                                        <div class="part-txt">
-                                            <span class="number odometer" id="all-sports" data-count="574">0000</span>
-                                            <span class="text">All Sports</span>
-                                        </div>
-                                    </div>
-                                    <div class="single-statics" data-aos="fade-up" data-aos-delay="250" data-aos-duration="500" data-aos-easing="ease-in">
-                                        <div class="part-icon">
-                                            <img src="assets/img/about/icon-3.png" alt="">
-                                        </div>
-                                        <div class="part-txt">
-                                            <span class="number odometer" id="streaming" data-count="3201">0000</span>
-                                            <span class="text">Streaming</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="part-descr" data-aos="fade-up" data-aos-delay="150" data-aos-duration="500" data-aos-easing="ease-in">
-                                    <p>We provide our services to our millions of customers extremely seriously. They play with <span class="txt-bold">Peredion</span>   because they enjoy the social experiences that sports and games bring to their lives and the <u>freedom that following your instincts</u> gives you.</p>
-                                    <ul>
-                                        <li>We analyze offers on its size, and the wagering requirements.</li>
-                                        <li>we recommend is completely secure and trustworthy.</li>
-                                        <li>Our customers are our most valued asset.</li>
-                                    </ul>
-                                    <a class='prd-btn-1' href='playing-bet.html'>Bet NOW <i class="fa-duotone fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- about end -->
+        <!-- About-Section-Area -->
 
         <!-- playing bet begin -->
         <div class="playing-bet">
             <div class="global-shape style-2">
-                <img src="assets/img/shapes/shape-1.png" alt="" data-aos="fade-left" data-aos-duration="700" data-aos-delay="200">
+                <img src="assets/img/shapes/shape-1.pn" alt="" data-aos="fade-left" data-aos-duration="700" data-aos-delay="200">
             </div>
             <div class="global-shape style-3">
-                <img src="assets/img/shapes/shape-1.png" alt="" data-aos="fade-left" data-aos-duration="700" data-aos-delay="200">
+                <img src="assets/img/shapes/shape-1.pn" alt="" data-aos="fade-left" data-aos-duration="700" data-aos-delay="200">
             </div>
             <div class="container">
                 <div class="section-title" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500" data-aos-easing="ease-in">
@@ -3164,7 +2936,7 @@
         <!-- sports schedule begin -->
         <div class="sports-schedule">
             <div class="global-shape style-4">
-                <img src="assets/img/shapes/shape-1.png" alt="" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
+                <img src="assets/img/shapes/shape-1.pn" alt="" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
             </div>
             <div class="container">
                 <div class="section-title" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500" data-aos-easing="ease-in">
@@ -3514,7 +3286,7 @@
         <!-- working process begin -->
         <div class="working-process">
             <div class="global-shape">
-                <img src="assets/img/shapes/shape-1.png" alt="" data-aos="fade-left" data-aos-duration="500" data-aos-offset="200" data-aos-easing="ease-in" data-aos-delay="400">
+                <img src="assets/img/shapes/shape-1.pn" alt="" data-aos="fade-left" data-aos-duration="500" data-aos-offset="200" data-aos-easing="ease-in" data-aos-delay="400">
             </div>
             <div class="container">
                 <div class="row justify-content-center">
@@ -3529,10 +3301,10 @@
                     <div class="col-xl-3 col-lg-3 col-sm-6">
                         <div class="single-process">
                             <div class="part-icon" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in" data-aos-delay="100">
-                                <img src="assets/img/working-process/icon-1.png" alt="">
+                                <img src="assets/img/working-process/form.png" alt="">
                             </div>
                             <div class="part-text">
-                                <span class="step-number" data-aos="fade" data-aos-duration="500" data-aos-easing="ease-in" data-aos-delay="300"><span class="gradient-number">1.</span></span>
+                                <span class="step-number" data-aos="fade" data-aos-duration="500" data-aos-easing="ease-in" data-aos-delay="300"><span class="gradient-number"></span></span>
                                 <span class="step-title" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in" data-aos-delay="150">Open an  account.</span>
                                 <p data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in" data-aos-delay="200">Create an account. Enter your <br/>personal details into the sign-up form & click the 'Register' button.</p>
                             </div>
@@ -3543,20 +3315,20 @@
                             <div class="part-text">
                                 <span class="step-title" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in" data-aos-delay="250">Make your deposit.</span>
                                 <p data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in" data-aos-delay="300">Before you can make to placing bet, you’ll need to deposit some cash in your account.</p>
-                                <span class="step-number two" data-aos="fade" data-aos-duration="500" data-aos-easing="ease-in" data-aos-delay="450"><span class="gradient-number">2.</span></span>
+                                <span class="step-number two" data-aos="fade" data-aos-duration="500" data-aos-easing="ease-in" data-aos-delay="450"><span class="gradient-number"></span></span>
                             </div>
                             <div class="part-icon" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in" data-aos-delay="350">
-                                <img src="assets/img/working-process/icon-2.png" alt="">
+                                <img src="assets/img/working-process/wallet.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-sm-6">
                         <div class="single-process">
                             <div class="part-icon" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in" data-aos-delay="400">
-                                <img src="assets/img/working-process/icon-3.png" alt="">
+                                <img src="assets/img/working-process/withdrawal.png" alt="">
                             </div>
                             <div class="part-text">
-                                <span class="step-number" data-aos="fade" data-aos-duration="500" data-aos-easing="ease-in" data-aos-delay="600"><span class="gradient-number">3.</span></span>
+                                <span class="step-number" data-aos="fade" data-aos-duration="500" data-aos-easing="ease-in" data-aos-delay="600"><span class="gradient-number">.</span></span>
                                 <span class="step-title" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in" data-aos-delay="450">Place your wagers.</span>
                                 <p data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in" data-aos-delay="500">Now you’re ready to start placing<br/> your bets online, so it’s time to make your selections.</p>
                             </div>
@@ -3567,10 +3339,10 @@
                             <div class="part-text">
                                 <span class="step-title" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in" data-aos-delay="550">Withdraw your winnings.</span>
                                 <p data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in" data-aos-delay="600">If you are a winner, claim your prize:<br/> Be sure to visit a retailer before your prize expires in 12 months.</p>
-                                <span class="step-number four" data-aos="fade" data-aos-duration="500" data-aos-easing="ease-in" data-aos-delay="700"><span class="gradient-number">4.</span></span>
+                                <span class="step-number four" data-aos="fade" data-aos-duration="500" data-aos-easing="ease-in" data-aos-delay="700"><span class="gradient-number"></span></span>
                             </div>
                             <div class="part-icon" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in" data-aos-delay="600">
-                                <img src="assets/img/working-process/icon-4.png" alt="">
+                                <img src="assets/img/working-process/cash-withdrawal.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -3582,7 +3354,7 @@
         <!-- feature begin -->
         <div class="feature">
             <div class="global-shape style-2">
-                <img src="assets/img/shapes/shape-1.png" alt="" data-aos="fade-left" data-aos-duration="500" data-aos-offset="200" data-aos-easing="ease-in" data-aos-delay="500">
+                <img src="assets/img/shapes/shape-1.pn" alt="" data-aos="fade-left" data-aos-duration="500" data-aos-offset="200" data-aos-easing="ease-in" data-aos-delay="500">
             </div>
             <div class="container">
                 <div class="row justify-content-xl-center justify-content-lg-start">
@@ -3677,93 +3449,12 @@
         </div>
         <!-- feature end -->
 
-        <!-- testimonial begin -->
-        <div class="testimonial">
-            <div class="global-shape style-3">
-                <img src="assets/img/shapes/shape-1.png" alt="" data-aos="fade-left" data-aos-duration="500" data-aos-offset="200" data-aos-easing="ease-in" data-aos-delay="400">
-            </div>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-8 col-lg-8" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500" data-aos-easing="ease-in">
-                        <div class="section-title">
-                            <h3 class="sub-title">testimonials</h3>
-                            <h2 class="title">Client’s Valuable Feedback</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-carousel owl-carousel owl-theme" data-aos="fade-up" data-aos-delay="150" data-aos-duration="500" data-aos-easing="ease-in">
-                    <div class="single-testimonial">
-                        <div class="testi-user-info">
-                            <div class="part-user-info">
-                                <span class="user-name">ruhio S albert</span>
-                                <span class="lottery-category">Est. Returns : $205.20</span>
-                                <span class="winning-date">( apr - 2022 )</span>
-                            </div>
-                            <div class="user-img-cover">
-                                <div class="part-img">
-                                    <img src="assets/img/testimonial/user-1.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="part-feedback">
-                            <p><img class="quot-1" src="assets/img/testimonial/quot-icon-1.png" alt="">
-                                Since it’s all by chance, enjoy picking your numbers or seeing what the 
-                            lottery terminal generates Since it’s all by chance.
-                            <img class="quot-2" src="assets/img/testimonial/quot-icon-2.png" alt="">
-                        </p>
-                        </div>
-                    </div>
-                    <div class="single-testimonial">
-                        <div class="testi-user-info">
-                            <div class="part-user-info">
-                                <span class="user-name">Leah Stanley</span>
-                                <span class="lottery-category">Est. Returns : $425.20</span>
-                                <span class="winning-date">( Jan - 2022 )</span>
-                            </div>
-                            <div class="user-img-cover">
-                                <div class="part-img">
-                                    <img src="assets/img/testimonial/user-2.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="part-feedback">
-                            <p><img class="quot-1" src="assets/img/testimonial/quot-icon-1.png" alt="">
-                                Since it’s all by chance, enjoy picking your numbers or seeing what the 
-                            lottery terminal generates Since it’s all by chance.
-                            <img class="quot-2" src="assets/img/testimonial/quot-icon-2.png" alt="">
-                        </p>
-                        </div>
-                    </div>
-                    <div class="single-testimonial">
-                        <div class="testi-user-info">
-                            <div class="part-user-info">
-                                <span class="user-name">Megan Clayton</span>
-                                <span class="lottery-category">Est. Returns : $99.51</span>
-                                <span class="winning-date">( Dec - 2021 )</span>
-                            </div>
-                            <div class="user-img-cover">
-                                <div class="part-img">
-                                    <img src="assets/img/testimonial/user-3.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="part-feedback">
-                            <p><img class="quot-1" src="assets/img/testimonial/quot-icon-1.png" alt="">
-                                Since it’s all by chance, enjoy picking your numbers or seeing what the 
-                            lottery terminal generates Since it’s all by chance.
-                            <img class="quot-2" src="assets/img/testimonial/quot-icon-2.png" alt="">
-                        </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- testimonial end -->
+       <!--Testimonial Section-->
 
         <!-- footer begin -->
         <div class="footer">
             <div class="global-shape style-4">
-                <img src="assets/img/shapes/shape-1.png" alt="" data-aos="fade-left" data-aos-duration="500" data-aos-offset="200" data-aos-easing="ease-in" data-aos-delay="500">
+                <img src="assets/img/shapes/shape-1.pn" alt="" data-aos="fade-left" data-aos-duration="500" data-aos-offset="200" data-aos-easing="ease-in" data-aos-delay="500">
             </div>
             <div class="footer-top">
                 <div class="container">
